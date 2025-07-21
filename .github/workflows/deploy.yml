@@ -3,7 +3,7 @@ name: Example
 on :
   push:
     branches:
-        main
+    - main
 jobs:
  message:
     runs-on: ubuntu-latest
