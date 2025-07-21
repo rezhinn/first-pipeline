@@ -1,11 +1,12 @@
 name: Example
 
-on :
+on:
   push:
     branches:
-    - main
+      - main
+
 jobs:
- message:
+  message:
     runs-on: ubuntu-latest
     steps:
       - name: Print message
